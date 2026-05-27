@@ -39,12 +39,32 @@ export default function Contact() {
       return;
     }
 
-    // Simulate API call
-    setTimeout(() => {
-      setStatus({ type: "success", message: "Message sent successfully! I'll get back to you soon." });
-      setFormData({ name: "", email: "", subject: "", message: "" });
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
+          ...formData,
+        }),
+      });
+      
+      const result = await response.json();
+      
+      if (result.success) {
+        setStatus({ type: "success", message: "Message sent successfully! I'll get back to you soon." });
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        setStatus({ type: "error", message: result.message || "Something went wrong. Please try again later." });
+      }
+    } catch (error) {
+      setStatus({ type: "error", message: "Something went wrong. Please try again later." });
+    } finally {
       setIsSubmitting(false);
-    }, 1500);
+    }
   };
 
   return (
