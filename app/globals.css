@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent-green: #00ff80;
+  --color-accent-green-dark: #00cc66;
+  --color-accent-green-light: #33ff99;
+  --color-accent-purple: #be29ec;
+  --color-accent-purple-light: #d665ff;
+  --color-dark-primary: #0f0f0f;
+  --color-dark-secondary: #1a1a1a;
+  --color-dark-tertiary: #262626;
+  --color-text-light: #e0e0e0;
+  --color-text-muted: #a0a0a0;
+}
+
+body {
+  color: var(--color-text-light);
+  min-height: 100vh;
+}
