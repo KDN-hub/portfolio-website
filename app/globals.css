@@ -11,13 +11,6 @@
   --color-dark-tertiary: #262626;
   --color-text-light: #e0e0e0;
   --color-text-muted: #a0a0a0;
-
-  --animate-float: float 6s ease-in-out infinite;
-
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-  }
 }
 
 body {
