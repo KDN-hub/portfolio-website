@@ -48,6 +48,7 @@ export default function Contact() {
         },
         body: JSON.stringify({
           access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
+          from_name: `${formData.name} (Portfolio Contact)`,
           ...formData,
         }),
       });
