@@ -34,7 +34,7 @@ export default function Home() {
           </AnimatedSection>
           
           <AnimatedSection direction="left" delay={200}>
-            <div className="animate-bounce mt-12 lg:mt-0 h-72 w-72 lg:h-96 lg:w-96 rounded-full overflow-hidden flex items-center justify-center relative flex-shrink-0 shadow-2xl border-4 border-dark-tertiary">
+            <div className="animate-float mt-12 lg:mt-0 h-72 w-72 lg:h-96 lg:w-96 rounded-full overflow-hidden flex items-center justify-center relative flex-shrink-0 shadow-2xl border-4 border-dark-tertiary">
               <Image
                 src="/profile.jpg"
                 alt="Profile Picture"
