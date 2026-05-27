@@ -7,9 +7,9 @@ import AnimatedSection from "@/components/AnimatedSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-[calc(100vh-80px)]">
+    <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative flex-grow flex items-center justify-center overflow-hidden py-12 px-6 lg:px-24">
+      <section className="relative min-h-[calc(100vh-80px)] flex flex-col justify-center overflow-hidden py-20 px-6 lg:px-24">
         {/* Floating Icons Background */}
         <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
           <FaReact className="absolute text-white/80 text-7xl top-[10%] left-[10%] animate-pulse" />
