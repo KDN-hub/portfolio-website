@@ -23,9 +23,9 @@ export default function Navbar() {
     <header className="fixed top-6 left-0 w-full flex justify-between items-center px-8 lg:px-16 z-50 pointer-events-none">
       
       {/* Logo */}
-      <div className="flex-1 flex items-center pointer-events-auto relative">
-        <Link href="/" className="hover:opacity-80 transition-opacity absolute left-0 top-1/2 -translate-y-1/2" onClick={closeMenu}>
-          <img src="/logo.svg" alt="NK Logo" className="h-[92px] w-auto" />
+      <div className="flex-1 flex items-center pointer-events-auto">
+        <Link href="/" className="hover:opacity-80 transition-opacity" onClick={closeMenu}>
+          <img src="/logo.svg" alt="NK Logo" className="h-10 md:h-12 w-auto" />
         </Link>
       </div>
 
