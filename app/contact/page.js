@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import AnimatedSection from "@/components/AnimatedSection";
 
@@ -148,7 +148,7 @@ export default function Contact() {
         <h3 className="text-xl font-bold text-text-light mb-6">Connect with me</h3>
         <div className="flex justify-center space-x-8">
           <a
-            href="https://www.linkedin.com/in/nwakwuribe-kamsi/"
+            href="https://www.linkedin.com/feed/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-black/30 backdrop-blur-md rounded-full flex items-center justify-center text-text-light hover:bg-white hover:text-black hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 ease-in-out"
@@ -157,14 +157,21 @@ export default function Contact() {
             <FaLinkedinIn size={20} />
           </a>
           <a
-            href="mailto:kamsinwakwuribe@gmail.com"
+            href="mailto:kamsiyochinwakwuribe@gmail.com"
             className="w-12 h-12 bg-black/30 backdrop-blur-md rounded-full flex items-center justify-center text-text-light hover:bg-white hover:text-black hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 ease-in-out"
             aria-label="Email"
           >
             <FaEnvelope size={20} />
           </a>
           <a
-            href="https://x.com/kamsi_nwakwuribe"
+            href="tel:08068705361"
+            className="w-12 h-12 bg-black/30 backdrop-blur-md rounded-full flex items-center justify-center text-text-light hover:bg-white hover:text-black hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 ease-in-out"
+            aria-label="Phone"
+          >
+            <FaPhoneAlt size={20} />
+          </a>
+          <a
+            href="https://x.com/home"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-black/30 backdrop-blur-md rounded-full flex items-center justify-center text-text-light hover:bg-white hover:text-black hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 ease-in-out"
@@ -173,7 +180,7 @@ export default function Contact() {
             <FaXTwitter size={20} />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/KDN-hub"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-black/30 backdrop-blur-md rounded-full flex items-center justify-center text-text-light hover:bg-white hover:text-black hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 ease-in-out"

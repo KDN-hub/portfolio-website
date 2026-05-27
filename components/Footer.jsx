@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex justify-center space-x-10 mb-6">
           <a
-            href="https://www.linkedin.com/in/nwakwuribe-kamsi/"
+            href="https://www.linkedin.com/feed/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl hover:text-white transition duration-300"
@@ -19,14 +19,21 @@ export default function Footer() {
             <FaLinkedinIn />
           </a>
           <a
-            href="mailto:kamsinwakwuribe@gmail.com"
+            href="mailto:kamsiyochinwakwuribe@gmail.com"
             className="text-3xl hover:text-white transition duration-300"
             aria-label="Email"
           >
             <FaEnvelope />
           </a>
           <a
-            href="https://x.com/kamsi_nwakwuribe"
+            href="tel:08068705361"
+            className="text-3xl hover:text-white transition duration-300"
+            aria-label="Phone"
+          >
+            <FaPhoneAlt />
+          </a>
+          <a
+            href="https://x.com/home"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl hover:text-white transition duration-300"
@@ -35,7 +42,7 @@ export default function Footer() {
             <FaXTwitter />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/KDN-hub"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl hover:text-white transition duration-300"

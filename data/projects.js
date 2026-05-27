@@ -32,7 +32,7 @@ export const projects = [
     description: "A responsive and accessible personal portfolio website built with modern web technologies, featuring a minimalist glass aesthetic and smooth animations.",
     image: "/projects/portfolio.png",
     tags: ["Next.js", "Tailwind CSS", "JavaScript"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://nwakwuribekamsi.vercel.app/",
+    githubUrl: "https://github.com/KDN-hub/portfolio-website",
   }
 ];
