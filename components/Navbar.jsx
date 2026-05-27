@@ -25,7 +25,7 @@ export default function Navbar() {
       {/* Logo */}
       <div className="flex-1 flex items-center pointer-events-auto">
         <Link href="/" className="hover:opacity-80 transition-opacity" onClick={closeMenu}>
-          <img src="/logo.svg" alt="NK Logo" className="h-28 md:h-32 w-auto" />
+          <img src="/logo.svg" alt="NK Logo" className="h-[92px] w-auto" />
         </Link>
       </div>
 
