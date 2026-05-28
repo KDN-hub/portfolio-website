@@ -169,7 +169,7 @@ export default function Contact() {
         <h3 className="text-xl font-bold text-text-light mb-6">Connect with me</h3>
         <div className="flex justify-center space-x-8">
           <a
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/kamsiyochi-nwakwuribe-346493302"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-black/30 backdrop-blur-md rounded-full flex items-center justify-center text-text-light hover:bg-white hover:text-black hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 ease-in-out"
@@ -192,7 +192,7 @@ export default function Contact() {
             <FaPhoneAlt size={20} />
           </a>
           <a
-            href="https://x.com/home"
+            href="https://x.com/thistechkid"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-black/30 backdrop-blur-md rounded-full flex items-center justify-center text-text-light hover:bg-white hover:text-black hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 ease-in-out"

@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex justify-center space-x-10 mb-6">
           <a
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/kamsiyochi-nwakwuribe-346493302"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl hover:text-white transition duration-300"
@@ -33,7 +33,7 @@ export default function Footer() {
             <FaPhoneAlt />
           </a>
           <a
-            href="https://x.com/home"
+            href="https://x.com/thistechkid"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl hover:text-white transition duration-300"
