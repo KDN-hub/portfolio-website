@@ -84,7 +84,9 @@ export default function Navbar() {
       {/* Right Action Button */}
       <div className="flex-1 flex justify-end pointer-events-auto hidden sm:flex">
         <a 
-          href="#" 
+          href="/Resume/Nwakwuribe_Kamsi_Resume_Tech.pdf" 
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 border border-white/50 text-white text-sm font-semibold hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-md shadow-lg"
         >
           Download CV
